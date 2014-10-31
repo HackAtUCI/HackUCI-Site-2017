@@ -1,0 +1,574 @@
+<!DOCTYPE html>
+<!--[if lt IE 7 ]><html class="ie ie6" lang="en"> <![endif]-->
+<!--[if IE 7 ]><html class="ie ie7" lang="en"> <![endif]-->
+<!--[if IE 8 ]><html class="ie ie8" lang="en"> <![endif]-->
+<!--[if (gte IE 9)|!(IE)]><!-->
+<html lang="en">
+<!--<![endif]-->
+<head>
+    <meta charset="utf-8">
+    <title>HackUCI - UCI's Second Hackathon</title>
+
+    <meta name="description"
+        content="Historically, Orange County and Southern California have 
+        always been conservative in nature and lacking in tech innovation. 
+        It's time to change this. Join us (Date TBA)
+        and Hack UCI!"/>
+    <meta name="author" content="Lucas Ou-Yang">
+
+    <meta property="og:title" content="HackUCI - Redefine Orange County"/>
+    <meta property="og:type" content="website"/>
+    <meta property="og:image" content="http://hackuci.com/images/fb_og.jpg"/>
+    <meta property="og:url" content="http://www.hackuci.com/"/>
+    <meta property="fb:admins" content="lucas.ouyang.7"/>
+    <meta property="og:site_name" content="HackUCI"/>
+    <!--<meta property="fb:app_id" content=""/>-->
+
+    <meta property="og:description" 
+        content="Historically, Orange County and Southern California have 
+        always been conservative in nature and lacking in tech innovation. 
+        It's time to change this. Join us (Date TBA)
+        and Hack UCI!"/>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+    <link type="text/css" rel="stylesheet" href="css/bootstrap.min.css">
+
+    <link href="http://fonts.googleapis.com/css?family=Open+Sans:300,400,600,800" 
+        rel="stylesheet" type="text/css">
+
+    <!-- plugin css -->
+    <link rel="stylesheet" type="text/css" href="js/animation-framework/animate.css" />
+    <link rel="stylesheet" type="text/css" href="js/magnific-popup/magnific-popup.css" />
+    <link type="text/css" rel="stylesheet" href="js/isotope/css/style.css">
+    <link rel="stylesheet" type="text/css" href="js/flexslider/flexslider.css" />
+    <link rel="stylesheet" type="text/css" href="js/pageSlide/jquery.pageslide.css" />
+    <link rel="stylesheet" href="js/owl.carousel/owl-carousel/owl.carousel.css">
+    <link rel="stylesheet" href="js/owl.carousel/owl-carousel/owl.theme.css">
+
+    <!-- Icon css -->
+    <link type="text/css" rel="stylesheet" href="css/font-icons/custom-icons.css">
+    <link type="text/css" rel="stylesheet" href="css/font-icons/custom-icons-ie7.css">
+    <link type="text/css" rel="stylesheet" href="css/style.css">
+    <link type="text/css" id="colors" rel="stylesheet" href="css/colors.css">
+
+    <!--[if lt IE 9]><script src="http://html5shim.googlecode.com/svn/trunk/html5.js">
+    </script> <![endif]-->
+    <script src="js/modernizr-2.6.1.min.js"></script>
+
+    <link rel="shortcut icon" href="images/favicon.ico">
+
+    <!-- 
+    Javascript should normally be at the end of an html file for performance reasons.
+    However, MailChimp requires a set of Javascript libraries to be loaded
+    before the Mailchimp html can execute, so we opt to place our .js files all at 
+    the top for sanity.
+    -->
+    <script type="text/javascript" src="js/respond/respond.min.js"></script>
+    <script type="text/javascript" src="js/jquery/1.8.3/jquery.min.js"></script>
+    <script type="text/javascript" src="js/jquery-ui/jquery-ui-1.8.23.custom.min.js"></script>
+
+    <!-- 3rd party plugins  -->
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="js/easing/jquery.easing.1.3.js"></script>
+    <script type="text/javascript" src="js/flexslider/jquery.flexslider-min.js"></script>
+    <script type="text/javascript" src="js/isotope/jquery.isotope.min.js"></script>
+    <script type="text/javascript" src="js/neko-contact-ajax-plugin/js/jquery.form.js"></script>
+    <script type="text/javascript" src="js/neko-contact-ajax-plugin/js/jquery.validate.min.js"></script>
+    <script type="text/javascript" src="js/magnific-popup/jquery.magnific-popup.min.js"></script>
+    <script type="text/javascript" src="js/parallax/js/jquery.scrollTo-1.4.3.1-min.js"></script>
+    <script type="text/javascript" src="js/parallax/js/jquery.localscroll-1.2.7-min.js"></script>
+    <script type="text/javascript" src="js/parallax/js/jquery.stellar.min.js"></script>
+    <script type="text/javascript" src="js/pageSlide/jquery.pageslide-custom.js"></script>
+    <script type="text/javascript" src="js/jquery.sharrre-1.3.4/jquery.sharrre-1.3.4.min.js"></script>
+    <script type="text/javascript" src="js/owl.carousel/owl-carousel/owl.carousel.min.js"></script>
+
+    <script>
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+      ga('create', 'UA-47824260-1', 'hackuci.com');
+      ga('send', 'pageview');
+    </script>
+
+    <script type="text/javascript" src="js/main.js"></script>
+</head>
+<body data-spy="scroll" data-target="#scrollTarget" data-offset="150" id="fullScreen">
+    <div id="globalWrapper" class="localscroll">
+        <header id="mainHeader" class="navbar-fixed-top" role="banner">
+            <div class="container">
+                <nav class="navbar navbar-default scrollMenu" role="navigation">
+                    <div class="navbar-header">
+                        <button type="button" class="navbar-toggle" data-toggle="collapse" 
+                            data-target=".navbar-ex1-collapse"> <span class="sr-only">
+                            Toggle navigation</span> <span class="icon-bar"></span> 
+                            <span class="icon-bar"></span> <span class="icon-bar"></span> 
+                        </button>
+                        <!--
+                        <a class="navbar-brand" href="/"><img src="images/hackUCI_black_OLD.png" 
+                            alt="The biggest hackathon Irvine has ever seen!"/></a> 
+                        -->
+                    </div>
+                    <div class="collapse navbar-collapse navbar-ex1-collapse" id="scrollTarget">
+                        <ul class="nav navbar-nav pull-right">
+                            <!--
+                            <li class="active"><a href="#about"><i class="icon-star"></i>about</a> </li>
+                            <li><a href="#faq"><i class="icon-thumbs-up"></i>FAQ</a> </li>
+                            <li><a href="#register"><i class="icon-home-outline"></i>register</a></li>
+                            <li><a href="#sponsors"><i class="icon-thumbs-up"></i>sponsors</a> </li>
+                            -->
+                        </ul>
+                    </div>
+                </nav>
+            </div>
+        </header>
+
+        <section id="homeFullScreen" data-stellar-background-ratio="0.5">
+            <div class="maskParent" >
+                <div class="paralaxMask"></div>
+                <div id="fullScreenSliderWrapper">
+                    <div id="logoBig">
+                        <img class="img-responsive" src="images/logo.png" 
+                            alt="hackUCI logo" />
+                    </div>
+                    <br>
+                    <div class="flexslider" id="flexHome">
+                        <ul class="slides">
+                            <li> <h1>Date TBA</h1> </li>
+                            <li> <h1>Redefine Orange County</h1> </li>
+                            <li> <h1>Hosted at TBA</h1> </li>
+                        </ul>
+                    </div> 
+                    <!--
+                    <a href="http://hackuci.eventbrite.com" target="_blank" 
+                        class="homeBtn btn">register now</a>
+                    -->
+                    <a href="docs/info.pdf" target="_blank" 
+                        class="moreInfo homeBtn btn">More information</a>
+            </div>
+        </section>
+
+        <section class="slice color4 noPaddingBottom" id="about">
+            <div class="container">
+                <div class="row">
+                    <h1 class="center-text"><strong>Live band</strong> @ opening ceremony</h1>
+                    <h1 class="center-text"><strong>Oculus Virtual Reality</strong> 
+                        kits & prizes aplenty</h1>
+                    <h1 class="center-text"><strong>500</strong> Hackers, 
+                        <strong>Incredible</strong> Prizes</h1>
+                    <h1 class="center-text">All <strong>meals and snacks</strong> provided</h1>
+                    <h1 class="center-text">Takes place on <strong>
+                            Date TBA</strong></h1>
+                    <h1 class="center-text">at <strong>
+                    Location TBA</strong></h1>
+                </div>
+            </div>
+        </section>
+
+        <section class="slice" id="faq">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xs-12">
+                        <h1 class="mainGray">FAQ</h1>
+                        <h2 class="grayBlue subTitle whiteSub"></h2>
+                    </div>
+                </div>
+                <div class="row faq-row">
+                    <div class="col-md-3 col-sm-6 ">
+                        <article class="boxFeature-2">
+                            <p><strong>What is a Hackathon?</strong></p>
+                            <p>A hackathon is a place where the only thing limiting what you 
+                            build is your own creativity - we'll provide  the rest. Stay up 
+                            for 36 hours with the smartest people you'll ever meet, 
+                            building the coolest things you have created and chugging more Red 
+                            Bull than you ever thought possible.</p>
+                        </article>
+                    </div>
+                    <div class="col-md-3 col-sm-6">
+                        <article class="boxFeature-2">
+                            <p><strong>What should I create?</strong></p>
+                            <p>You can build whatever you can dream of, whether that be a 
+                            website with an amazing feature, a phone app, or a cool rad 
+                            piece of hardware. (Soldering is NOT allowed!) All code must 
+                            be written during the hackathon itself. Impress us!</p>
+                        </article>
+                    </div>
+                    <div class="col-md-3 col-sm-6 ">
+                        <article class="boxFeature-2">
+                            <p><strong>How are hacks presented?</p></strong>
+                            <p>On Sunday at 10AM, Hacks formally are finished and all 
+                            hackers will be able to demo their hacks to sponsors and their 
+                            fellow hackers in an expo event. 
+                            The event will end formally at 3PM. Hacks should be submitted to 
+                            <a href="http://hackuci.challengepost.com">hackuci.challengepost.com</a> 
+                            and the top ten will be selected to demo to everyone.</p>
+                        </article>
+                    </div>
+                    <div class="col-md-3 col-sm-6">
+                        <article class="boxFeature-2">
+                            <p><strong>Do I sign up as a team or individual?</p></strong>
+                            <p>You can sign up as a team of up to <b>four</b> members or 
+                            as an individual. If you're an individual looking for team 
+                            members, you will find tons of other smart people at the event 
+                            to form a team.</p>
+                        </article>
+                    </div>	
+                </div>
+                <div class="row faq-row">
+                    <div class="col-md-3 col-sm-6">
+                        <article class="boxFeature-2">
+                            <p><strong>What should I bring?</strong></p>
+                            <p>Yourself, an idea, photo ID, your hacking setup, 
+                            clothes, toiletries, and a sleeping bag (for the weak).</p>
+                        </article>
+                    </div>
+                   <div class="col-md-3 col-sm-6 ">
+                        <article class="boxFeature-2">
+                        <p><strong>I live far away. How do I get to the event?</p></strong>
+                        <p>Transportation TBA</p>
+                        </article>
+                    </div>
+                    <div class="col-md-3 col-sm-6 ">
+                        <article class="boxFeature-2">
+                        <p><strong>Who can come?  </p></strong>
+                        <p>Any undergraduate or graduate students. We also admit high school 
+                                students on a case-by-case basis.
+                        </p></article>
+                    </div>
+                    <div class="col-md-3 col-sm-6 ">
+                        <article class="boxFeature-2">
+                        <p><strong>When does the event end?  </p></strong>
+                        <p>The final awards and closing ceremony will end at 3pm on Sunday</p>
+                        </article>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    <div class="no-section-needed-for-this-one">
+        <div id="paralaxSlice1" data-stellar-background-ratio="0.5">
+            <div class="maskParent">
+                <div class="paralaxMask beachBg"></div>
+                <div class="paralaxText container"> 
+                    <blockquote class="bigTitle beachQuote">
+                        Let us change what it means to be from Southern California
+                    </blockquote>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <section class="slice" id="register">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <center>
+                    <h1>Tickets are sold out for Spring '14!
+                        <br>
+                        <br>
+                        Visit our <strong><a class="mainBlue" target="_blank" 
+                            href="https://www.facebook.com/hackUCIrvine">Facebook</a></strong> 
+                        or <strong><a class="mainBlue" target="_blank" 
+                            href="http://twitter.com/hackuci">Twitter</a>
+                            </strong> pages</a></strong> 
+                        for more info on next years event!</h1>
+                    </center>
+                    <!--
+                    <h1><a href="http://hackuci.eventbrite.com">Click <strong>here</strong> 
+                        to register for hackUCI Spring 2014!</a></h1>
+                    -->
+                    <!--
+                        Paste /mailchimp.html code in here when needed.
+                    -->
+               </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="slice" id="social-media">
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-12 viralDiv">
+                    <h1>Make us Viral</h1>
+                    <!--<h2 class="subTitle"></h2>-->
+
+                    <!-- Style for below button must be inline -->
+                    <div class="fb-like" data-href="https://www.facebook.com/hackUCIrvine" 
+                        data-layout="standard" data-action="like" data-show-faces="false" 
+                        data-share="false"
+                        style="position:absolute;bottom:5px;left:20%;">
+                    </div>
+
+                    <a href="https://twitter.com/HackUCI" class="twitter-follow-button" 
+                        data-show-count="true" data-lang="en">Follow @HackUCI</a>
+                    <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="slice" id="sponsors">
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-12">
+                    <h1>Sponsors</h1>
+                    <h2 class="subTitle">
+                        <!--
+                        Click 
+                        <b><a href="docs/HackUCISponsorshipPacket.pdf">here</a></span></b>
+                        if you're interested in sponsoring! Or, get in 
+                        <a href="mailto:contact@hackuci.com">contact</a>
+                        -->
+                    </h2>
+                </div>
+            </div>
+
+            <!-- B/c of variance in logo sizes and shapes, we are going
+            to individually mold each logo to fit with an inline style 
+            width percentage. -->
+
+            <div class="col-xs-12 sponsor-row">
+                <a href="http://www.cylance.com/" target="_blank">
+                    <div class="sponsor">
+                        <img src="images/sponsors/cylance.jpg">
+                    </div>
+                </a>
+            </div>
+
+            <div class="col-xs-12 sponsor-row">
+                <a href="http://ipcprint.com/" target="_blank">
+                    <div class="sponsor">
+                        <img src="images/sponsors/infinite.jpg">
+                    </div>
+                </a>
+                <a href="http://sites.ieee.org/ocs/" target="_blank">
+                    <div class="sponsor" style="width:30%;">
+                        <img src="images/sponsors/ieee-logo.png">
+                    </div>
+                </a>
+            </div>
+
+            <div class="col-xs-12 sponsor-row">
+                <a href="http://www.coastlinerop.schoolloop.com/" target="_blank">
+                    <div class="sponsor" style="width:30%;">
+                        <img src="images/sponsors/rop.jpg">
+                    </div>
+                </a>
+                <a href="http://www.peoplespace.us/" target="_blank">
+                    <div class="sponsor">
+                        <img src="images/sponsors/peoplespace.jpg">
+                    </div>
+                </a>
+            </div>
+
+            <div class="col-xs-12 sponsor-row">
+                <a href="http://rdio.com" target="_blank">
+                    <div class="sponsor"style="width:25%;">
+                        <img src="images/sponsors/rdio.png">
+                    </div>
+                </a>
+                <a href="http://vitallinkoc.org/" target="_blank">
+                    <div class="sponsor" style="width:28%;">
+                        <img src="images/sponsors/vitallink.jpg">
+                    </div>
+                </a>
+                <a href="http://www.cccewd.net/initiative_iima4biz.cfm" 
+                        target="_blank">
+                    <div class="sponsor" style="width:28%;">
+                        <img src="images/sponsors/dsn.jpg">
+                    </div>
+                </a>
+            </div>
+
+            <div class="col-xs-12 sponsor-row">
+                <a href="http://amazon.com" target="_blank">
+                    <div class="sponsor" style="width:30%;">
+                        <img src="images/sponsors/amazon.jpg">
+                    </div>
+                </a>
+                <a href="http://bit.ly/Rpzy2C" target="_blank">
+                    <div class="sponsor" style="width:30%;">
+                        <img src="images/sponsors/ga.png">
+                    </div>
+                </a>
+                <a href="http://www.mathobotix.com/" target="_blank">
+                    <div class="sponsor" style="width:30%;">
+                        <img src="images/sponsors/mathobotix_logo.jpg ">
+                    </div>
+                </a>
+            </div>
+
+            <div class="col-xs-12 sponsor-row">
+                <a href="http://ics.uci.edu" target="_blank">
+                    <div class="sponsor" style="width:27%;">
+                        <img src="images/sponsors/bren.png">
+                    </div>
+                </a>
+                <a href="http://sendgrid.com" target="_blank">
+                    <div class="sponsor" style="width:27%;margin-top:30px;">
+                        <img src="images/sponsors/sendgrid.png">
+                    </div>
+                </a>
+                <a href="http://ivecg.uci.edu/" target="_blank">
+                    <div class="sponsor" style="width:30%;">
+                        <img src="images/sponsors/ivecg.jpg">
+                    </div>
+                </a>
+            </div>
+
+            <div class="col-xs-12 sponsor-row">
+                <a href="https://developers.kloudless.com/" target="_blank">
+                    <div class="sponsor" style="width:27%;">
+                        <img src="images/sponsors/kloudless.png">
+                    </div>
+                </a>
+                <a href="https://www.theyogicoop.com/" target="_blank">
+                    <div class="sponsor" style="width:27%;">
+                        <img src="images/sponsors/yogi.jpg">
+                    </div>
+                </a>
+                <a href="http://twilio.com" target="_blank">
+                    <div class="sponsor"style="width:24%;">
+                        <img src="images/sponsors/twilio.png">
+                    </div>
+                </a>
+                <a href="http://www.ochackerz.com/" target="_blank">
+                    <div class="sponsor" style="width:14%;">
+                        <img src="images/sponsors/oc_hackers.jpeg">
+                    </div>
+                </a>
+            </div>
+
+            <div class="col-xs-12 sponsor-row">
+                <a href="http://dropbox.com" target="_blank">
+                    <div class="sponsor" style="width:25%;">
+                        <img src="images/sponsors/dropbox.png">
+                    </div>
+                </a>
+                <a href="http://namecheap.com" target="_blank">
+                    <div class="sponsor" style="width:28%;">
+                        <img src="images/sponsors/namecheap.png">
+                    </div>
+                </a>
+                <a href="http://github.com" target="_blank">
+                    <div class="sponsor" style="width:23%;">
+                        <img src="images/sponsors/github.png">
+                    </div>
+                </a>
+            </div>
+
+            <div class="col-xs-12 sponsor-row">
+                <a href="http://google.com" target="_blank">
+                    <div class="sponsor"style="width:20%;">
+                        <img src="images/sponsors/google.png">
+                    </div>
+                </a>
+                <a href="http://wolfram.com" target="_blank">
+                    <div class="sponsor" style="width:30%;">
+                        <img src="images/sponsors/wolfram.svg">
+                    </div>
+                </a>
+                <a href="http://facebook.com" target="_blank">
+                    <div class="sponsor" style="width:23%;">
+                        <img src="images/sponsors/facebook.png">
+                    </div>
+                </a>
+            </div>
+
+            <div class="col-xs-12 sponsor-row">
+                <a href="http://lob.com" target="_blank">
+                    <div class="sponsor" style="width:23%;margin-top:30px;">
+                        <img src="images/sponsors/lob.png">
+                    </div>
+                </a>
+                <a href="http://educoin.cc" target="_blank">
+                    <div class="sponsor" style="width:12%;">
+                        <img src="images/sponsors/educoin.png">
+                    </div>
+                </a>
+            </div>
+
+            <div class="col-xs-12 sponsor-row">
+                <a href="http://readyforce.com" target="_blank">
+                    <div class="sponsor" style="width:15%;">
+                        <img src="images/sponsors/readyforce.jpg">
+                    </div>
+                </a>
+            </div>
+            <!--<center><h2>With <u><i>many</i></u> more coming soon.</h2></center>-->
+        </div>
+    </section>
+
+    <section class="slice" id="support">
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-12">
+                    <h1>Community Support</h1>
+                    <h2 class="subTitle"></h2>
+                </div>
+            </div>  
+
+            <div class="col-xs-12 community-row">
+                <a href="http://wics.ics.uci.edu" target="_blank">
+                    <div class="sponsor" style="width:35%;">
+                        <img src="images/sponsors/wics_logo.png">
+                    </div>
+                </a>
+            </div>
+
+            <div class="col-xs-12 community-row">
+                <a href="http://hacktech.io" target="_blank">
+                    <div class="sponsor"style="width:30%;">
+                        <img src="images/sponsors/hacktech.jpg">
+                    </div>
+                </a>
+                <a href="" target="_blank">
+                    <div class="sponsor"style="width:15%;margin-left:-35px;">
+                        <img src="images/sponsors/antre.jpg">
+                    </div>
+                </a>
+                <a href="http://mlh.io" target="_blank">
+                    <div class="sponsor"style="width:15%;">
+                        <img src="images/sponsors/mlh.png">
+                    </div>
+                </a>
+                <a href="" target="_blank">
+                    <div class="sponsor"style="width:25%;">
+                        <img src="images/sponsors/blackstone.jpg">
+                    </div>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <section id="footerRights">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12 text-center">
+                    <!--
+                    View our rules and liabilities 
+                    <a href="docs/rules.pdf"><strong>here</strong></a>.
+                    -->
+                    Design & site - 
+                    <a target="_blank" href="http://oliviertruong.com/">Olivier</a> and 
+                    <a target="_blank" href="http://lucasou.com">Lucas</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    </div>
+
+    <div id="fb-root"></div>
+    <script>(function(d, s, id) {
+          var js, fjs = d.getElementsByTagName(s)[0];
+          if (d.getElementById(id)) return;
+          js = d.createElement(s); js.id = id;
+          js.src = "//connect.facebook.net/en_US/all.js#xfbml=1&appId=714246128616285";
+          fjs.parentNode.insertBefore(js, fjs);
+    }(document, 'script', 'facebook-jssdk'));</script> 
+</body>
+</html>

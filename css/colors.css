@@ -23,7 +23,7 @@ blockquote small {
 	color:inherit;
 }
 h1, h2, h3, h4, h5, h6 {
-	color: #478BCF;/*#024;*/
+	color: rgba(0, 47, 95, 1);/*#024;*/
 }
 h2 {
  color:#888;	
@@ -378,7 +378,7 @@ color:#E7E7E7;
 }
 
 .color4 h1, .color4 h2, .color4 h3, .color4 h4, .color4 blockquote, .color4 a {
-    color: #478BCF;/*#024;*/
+    color: rgba(0, 47, 95, 1);/*#024;*/
 }
 
 .color4 h2.subTitle:after, .color4 h1.noSubtitle:after {
