@@ -71,10 +71,10 @@ h2.subTitle:after, h1.noSubtitle:after{
 ================================================== */
 
 a {
-	color:#024;
+	color:rgba(77, 166, 255, 1);
 }
 a:hover, .scrollspyNav .active a {
-	color:#024;
+	color:rgba(77, 166, 255, 1);
 }
 ul.iconsList li a {
 	color:#555
