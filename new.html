@@ -19,7 +19,6 @@ body {
 h1, h2, h3, h4, h5, h6, legend {
 	margin:0;
 	font-weight: 300;
-	font-family: 'Open Sans', sans-serif;
 }
 h1 {
 	font-size: 44px;
@@ -32,6 +31,29 @@ h1 {
 	letter-spacing: 0.1em;
 	margin-bottom: 17px;
 }
+.btn {
+  -webkit-border-radius: 3;
+  -moz-border-radius: 3;
+  border-radius: 3px;
+  font-family: 'Open Sans', sans-serif;
+  color: #ffffff;
+  font-size: 18px;
+  font-weight: 200;
+  background: #656e73;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+	-webkit-transition: 0.7s; /* For Safari 3.1 to 6.0 */
+    transition: 0.7s;
+}
+
+.btn:hover {
+  background: #0F0F12;
+  border-color: #FFFFFF;
+  text-decoration: none;
+  border-style: solid;
+  border-width:1px;
+}
+
 </style>
 
 <script>
@@ -49,8 +71,11 @@ $("#headline").Morphext({
 </head>
 <body onload="loaded()">
 <center><br>
-<img src="images/logo2015.png"  height="70%"/>
-<h1 id="headline">THIS MEMORIAL DAY WEEKEND | MAY 22nd - 24th | TAKE ON ORANGE COUNTY | IN THE BREN EVENT CENTER | 700+ HACKERS | FOOD, SWAG, PRIZES | #HashTag | #HackOC | #WhatTheHack | #HackBigOrHackAtHome | #WeHackAllNightToGetLucky | #WhatDoesTheHackSay | #ISeriouslySuckAtComingUpWithHashTags | #HackUCI</h1>
+<img src="images/logo2015.png" height="65%"/>
+<h1 id="headline">THIS MEMORIAL DAY WEEKEND | MAY 22nd - 24th | TAKE ON ORANGE COUNTY | IN THE BREN EVENT CENTER | 700+ HACKERS | FOOD, SWAG, PRIZES | #HashTag | #HackOC | #WhatTheHack | #HackBigOrHackAtHome | #WeHackAllNightToGetLucky | #WhatDoesTheHackSay | #ISeriouslySuckAtComingUpWithHashTags | #HackUCI</h1><br>
+<br>
+<a class="btn" href="http://eepurl.com/bc5YSz" target="_blank">Subscribe for Updates</a>
+<!-- <a class="btn" href="#">Contact Us</a> -->
 </center>
 </body>
 </html>
