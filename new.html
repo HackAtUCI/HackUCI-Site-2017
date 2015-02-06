@@ -1,0 +1,57 @@
+<html>
+<head>
+<link rel="stylesheet" href="css/morphext.css">
+<link rel="stylesheet" href="css/animate.css">
+<script type="text/javascript" src="js/jquery/1.8.3/jquery.min.js"></script>
+<script src="js/morphext.js"></script>
+<style>
+body {
+    background-color: #0F0F12;
+	font-size:16px;
+	line-height: 22px;
+	font-family: Arial, Helvetica, sans-serif;
+	-webkit-font-smoothing: antialiased; /* Fix for webkit rendering */
+	-webkit-text-size-adjust: 100%;
+	margin: 0;
+	padding: 0;
+	padding-top: 48px;
+}
+h1, h2, h3, h4, h5, h6, legend {
+	margin:0;
+	font-weight: 300;
+	font-family: 'Open Sans', sans-serif;
+}
+h1 {
+	font-size: 44px;
+	color: #FFFFFF;
+	line-height: 44px;
+	font-weight: 300;
+	font-style: normal;
+	text-align:center;
+	text-transform:uppercase;
+	position:relative;
+	letter-spacing: 0.1em;
+	margin-bottom: 17px;
+}
+</style>
+
+<script>
+function loaded() {
+$("#headline").Morphext({
+    // The [in] animation type. Refer to Animate.css for a list of available animations.
+    animation: "fadeIn",
+    // An array of phrases to rotate are created based on this separator. Change it if you wish to separate the phrases differently (e.g. So Simple | Very Doge | Much Wow | Such Cool).
+    separator: " | ",
+    // The delay between the changing of each phrase in milliseconds.
+    speed: 3500
+});
+}
+</script>
+</head>
+<body onload="loaded()">
+<center><br>
+<img src="images/logo2015.png"  height="70%"/>
+<h1 id="headline">This Memorial Day Weekend | May 22nd - 24th | Take on Orange County | In The Bren Event Center | 700+ Hackers | Food, Swag, Prizes | #HashTag | #HackOC | #WhatTheHack | #HackBigOrHackAtHome | #WeHackAllNightToGetLucky | #WhatDoesTheHackSay | #ISeriouslySuckAtComingUpWithHashTags | #HackUCI</h1>
+</center>
+</body>
+</html>
