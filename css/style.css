@@ -761,7 +761,8 @@ body#fullScreen #mainHeader{display:none;}
 	text-align:center;
 	margin:auto;
 }
-.btn.homeBtn {position:relative; background:#fff;/*#ffde6c;*/}
+.btn.homeBtn {position:relative; background:#fff; color:#002F5F; border-color:#fff;}
+.btn.homeBtn:hover {background:#000;color:#fff;border-color:#fff;}
 .dateTime {
     color: #fff !important;
 }
