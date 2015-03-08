@@ -454,6 +454,7 @@ hr {
 
 .viralDiv {
     height: 100px;
+    text-align: center;
 }
 
 .beachBg {
@@ -643,6 +644,8 @@ hr {
 }
 
 #social-media {
+	background-color:#E7E7E7;
+	padding-bottom: 100px;
 }
 
 #support {
