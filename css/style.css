@@ -741,7 +741,8 @@ body#fullScreen #mainHeader{display:none;}
 	/*background-image: url('../images/theme-pics/paralax-1.jpg');*/
 	/*background-image: url('../images/hack_uci_bg.jpg');*/
 	/*background-image: url('../images/bren.jpg');*/
-	background-image: url('../images/brenorange.png');
+	/*background-image: url('../images/brenorange.png');*/
+	background-image: url('../images/roland-fountain.jpg');
 	height:100%;
 	display:table;
 }
@@ -761,8 +762,8 @@ body#fullScreen #mainHeader{display:none;}
 	text-align:center;
 	margin:auto;
 }
-.btn.homeBtn {position:relative; background:#fff; color:#002F5F; border-color:#fff;}
-.btn.homeBtn:hover {background:#000;color:#fff;border-color:#fff;}
+.btn.homeBtn {position:relative; background:#fff; color:#002F5F; border-color:#e7e7e7;}
+.btn.homeBtn:hover {background:#002F5F; color:#fff; border-color:#fff;}
 .dateTime {
     color: #fff !important;
 }
