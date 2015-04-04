@@ -23,6 +23,9 @@ server.
 designer. We use some of the paid services, so it will only be active within
 the 2 months before the hackathon. The website links people to the application
 form when they press the Apply Now button.
+- [Formspree](https://formspree.io/): Normally, when you create a Contact Us form,
+it requires a PHP server. However, this is neat 3rd party solution that lets
+you have a Contact Form on a static website. No registration! No server! No cost!
 - MailChimp: The website doesn't use this directly. There is a Typeform plugin
 that can read an email field and send it over to MailChimp.
 - Bootstrap: I'm not sure how this exactly works, yet.
