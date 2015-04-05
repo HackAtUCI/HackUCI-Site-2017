@@ -143,6 +143,14 @@ $(document).ready(function() {
     $("#facebook-follow-button").mouseleave(function() {
         $("#facebook-follow-button").removeClass("rubberBand");
     });
+
+    $("#submit-btn").mouseenter(function() {
+        $("#submit-btn").addClass("rubberBand");
+    });
+
+    $("#submit-btn").mouseleave(function() {
+        $("#submit-btn").removeClass("rubberBand");
+    });
     /*
     |--------------------------------------------------------------------------
     | MAGNIFIC POPUP
