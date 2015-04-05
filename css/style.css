@@ -90,7 +90,16 @@ display:block;
 }
 /*** MEDIA QUERIES ***/
 
-@media(max-width:767px){
+@media only screen and (min-width: 767px) {
+	#sponsor-name {
+	  	width:49%; 
+	  	padding:1%;
+	}
+
+	#sponsor-email {
+	  	width:50%; 
+	  	padding:1%;
+	}
 }
 
 @media(min-width:768px){}
