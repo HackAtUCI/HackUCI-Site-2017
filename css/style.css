@@ -635,6 +635,15 @@ hr {
     color:#E7E7E7;
 }
 
+#faq-answer {
+    color:#CDCDCD;
+}
+
+#current-sponsors {
+    margin-top: 50px;
+    background-color:rgba(0, 47, 95, 1);
+}
+
 #sponsors {
     margin-top: 50px;
 }
