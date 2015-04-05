@@ -279,31 +279,38 @@
 
     <section class="slice" id="sponsors">
     <div class="container">
-        <div class="row">
+        <div class="row" align="center">
             <div class="col-xs-12">
                 <br/>
                 <h1>Sponsors</h1>
                 <h2 class="subTitle">
                     If you are interested in sponsoring, please
                     <b><a href="mailto:hackuci@gmail.com">email us</a></b>!<br><br>
-                    <form class="form-inline" action="//formspree.io/hackuci@gmail.com">
-                        <div class="form-group">
-                            <input type="text" class="form-control" name="name" placeholder="Name" style="width:300px; font-size:18px;" >
-                        </div>
-                        <div class="form-group" width="300px">
-                            <input type="hidden" name="_subject" value="New submission!" />
-                        </div>
-                        <div class="form-group" width="300px">
-                            <input type="email" class="form-control" name="_replyto" placeholder="Email" style="width:350px; font-size:18px;">
-                        </div>
-                        <br><br>
-                        <button class="btn homeBtn" type="submit" style="padding:6px 9px;">Submit</button>
-                    </form>
-                    <!--
-                    For more information, take a look at our
-                    <b><a href="docs/HackUCISponsorshipPacket.pdf">sponsorship packet</a></span></b>.
-                    -->
                 </h2>
+                <!--
+                For more information, take a look at our
+                <b><a href="docs/HackUCISponsorshipPacket.pdf">sponsorship packet</a></span></b>.
+                -->
+            </div>
+            <div style="max-width:650px;">
+                <form class="form-inline" action="//formspree.io/hackuci@gmail.com" method="post">
+                    <div class="form-group" style="width:50% padding:5px">
+                        <input type="text" class="form-control" name="name" placeholder="Your Name" style="font-size:18px;" >
+                    </div>
+                    <div class="form-group" width="50%" style="padding:5px;">
+                        <input type="email" class="form-control" name="_replyto" placeholder="Your Email" style="font-size:18px;">
+                    </div>
+                    <br>
+                    <div class="form-group" style="width:100% padding:5px;">
+                        <input type="text" class="form-control" name="_subject" placeholder="Subject" style="font-size:18px;"/>
+                    </div>
+                    <br>
+                    <div class="form-group" width="100%" style="padding:5px;">
+                        <input type="text" class="form-control" name="body" placeholder="Your Message" style="font-size:18px; width:100%; height:200px"/>
+                    </div>
+                    <br><br>
+                    <button class="btn homeBtn" type="submit" style="padding:6px 9px;">Submit</button>
+                </form>
             </div>
         </div>
     </div>
