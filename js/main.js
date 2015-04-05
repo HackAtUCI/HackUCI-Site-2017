@@ -117,7 +117,7 @@ $(document).ready(function() {
 
     /*
     |--------------------------------------------------------------------------
-    | HOME BUTTON
+    | BUTTON LINKS
     |--------------------------------------------------------------------------
     */
     $("#apply-btn").mouseenter(function() {
@@ -126,6 +126,22 @@ $(document).ready(function() {
 
     $("#apply-btn").mouseleave(function() {
         $("#apply-btn").removeClass("rubberBand");
+    });
+
+    $("#twitter-follow-button").mouseenter(function() {
+        $("#twitter-follow-button").addClass("rubberBand");
+    });
+
+    $("#twitter-follow-button").mouseleave(function() {
+        $("#twitter-follow-button").removeClass("rubberBand");
+    });
+
+    $("#facebook-follow-button").mouseenter(function() {
+        $("#facebook-follow-button").addClass("rubberBand");
+    });
+
+    $("#facebook-follow-button").mouseleave(function() {
+        $("#facebook-follow-button").removeClass("rubberBand");
     });
     /*
     |--------------------------------------------------------------------------
