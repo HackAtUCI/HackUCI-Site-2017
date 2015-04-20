@@ -22,10 +22,6 @@
   max-width: 100%;
 }
 
-#faq p {
-    text-align: left;
-}
-
 @media only screen and (min-width: 1280px) {
   #support {
     padding: 0 12vw;
@@ -648,6 +644,10 @@ hr {
     color:#CDCDCD;
 }
 
+#faq p {
+    text-align: left;
+}
+
 #current-sponsors {
     background-color:rgba(0, 47, 95, 1);
 }
@@ -670,7 +670,12 @@ hr {
 }
 
 #footerRights {
+    background-color:rgba(0, 47, 95, 1);
     margin-top: 45px;
+}
+
+#legal {
+    background-color:rgba(0, 47, 95, 1);
 }
 
 .navbar-nav > li > a {

@@ -162,9 +162,17 @@ footer {
 }
 
 #footerRights {
-	background-color:#fff;
-	color:#999;
+// 	color:#999;
 }
+
+#footerRights  a{
+    color:#999;
+}
+
+#footerRights a:visited {
+    color:#999;
+}
+
 p.credits {
 	color:#555;
 }
