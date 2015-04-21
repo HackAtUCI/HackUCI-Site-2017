@@ -31,6 +31,11 @@ that can read an email field and send it over to MailChimp.
 - Bootstrap: I'm not sure how this exactly works, yet.
 - [Google Analytics](https://www.google.com/analytics/learn/index.html)
 
+###Conventions
+- When supplying the images of logo on the website, you should always put some
+sort of style="width:30%", because when the website is scaled down, we want the
+images to be scaled as well.
+
 ###Known Legacy Files 
 - `mailchimp.html` has code that one could copy and paste into `index.html` in
 order to embed the mailchimp form into the website. As noted above, however,
