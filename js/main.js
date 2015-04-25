@@ -159,6 +159,14 @@ $(document).ready(function() {
     $("#sponsors-btn").mouseleave(function() {
         $("#sponsors-btn").removeClass("rubberBand");
     });
+
+    $("#booth-btn").mouseenter(function() {
+        $("#booth-btn").addClass("rubberBand");
+    });
+
+    $("#booth-btn").mouseleave(function() {
+        $("#booth-btn").removeClass("rubberBand");
+    });
     /*
     |--------------------------------------------------------------------------
     | MAGNIFIC POPUP
