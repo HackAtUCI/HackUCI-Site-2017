@@ -448,8 +448,16 @@ hr {
     margin-top: 30px;
 }
 
+.sponsor-row a {
+    text-decoration: none;
+}
+
 .community-row {
     text-align: center;
+}
+
+.community-row  a{
+    text-decoration: none;
 }
 
 .faq-row {
@@ -666,7 +674,7 @@ hr {
 }
 
 #support {
-    margin-top: 100px;
+    margin-top: 150px;
 }
 
 #footerRights {
