@@ -1,5 +1,8 @@
 $(document).ready(function(){
   $(".button-collapse").sideNav();
+  $("#myBtn").click(function(){
+    $("#myModal").modal();
+  });
   $('.scroll-link').on('click', function(event){
     event.preventDefault();
     var sectionID = $(this).attr("data-id");

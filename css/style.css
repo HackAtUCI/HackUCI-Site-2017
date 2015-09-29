@@ -100,7 +100,8 @@ strong{
   margin-left: 10%;
 }
 .footer-copyright{
-  background-color:#010e1e;
+  /*background-color:#010e1e;*/
+  background-color:#275799;
   color:white;
   padding:1%;
 }
@@ -113,9 +114,22 @@ strong{
 .foot:hover{
   color:teal;
 }
+.foot-link{
+  color:white;
+  margin: 10px;
+}
 .raining-img{
   visibility:hidden;
 }
 .rain{
   cursor: crosshair;
+}
+.modal{
+  position:fixed;
+  top:15%;
+  width:50%;
+  z-index:100000;
+}
+.email-text-area{
+  height:200px;
 }
