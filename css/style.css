@@ -79,6 +79,10 @@ strong{
 .card-info{
   padding-bottom:20px;
 }
+.sponsor-row {
+    text-align: center;
+    margin: 5% 5% 5% 5%;
+}
 .sponsor-image{
   width:25%;
   opacity: 0.5;
