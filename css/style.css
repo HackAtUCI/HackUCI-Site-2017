@@ -39,12 +39,13 @@ strong{
   height:50%;
 }
 .heading-image{
-  background-image:url('../images/bren.png');
+  background-image:url('../images/Main floor.png');
   background-size: 100%;
   background-repeat: no-repeat;
   background-position: center;
   background-color:#010e1e;
   color:white;
+  background-size: 100% 100%;
   min-height:400px;
 }
 .slogan{
