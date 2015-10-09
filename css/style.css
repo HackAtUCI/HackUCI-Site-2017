@@ -25,6 +25,11 @@ nav{
 strong{
   font-weight:900;
 }
+#apply-btn{
+  font-size:40px;
+  font-weight:bold;
+}
+
 .navbar-fixed{
   position:absolute;
   top:0;
