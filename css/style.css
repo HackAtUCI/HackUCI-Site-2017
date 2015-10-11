@@ -26,8 +26,8 @@ strong{
   font-weight:900;
 }
 #apply-btn{
-  font-size:40px;
-  font-weight:bold;
+  font-size:1.5rem;
+  /*font-weight:bold;*/
 }
 
 .navbar-fixed{
