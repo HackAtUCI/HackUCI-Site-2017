@@ -6,52 +6,52 @@
     display: none;
 }
 html{
-  font-family: 'Lato', sans-serif;
+    font-family: 'Lato', sans-serif;
 }
 body{
-  background-color:white;
-  transition:all 0.5s ease;
+    background-color:white;
+    transition:all 0.5s ease;
 }
 nav.unscrolled{
-  background-color:transparent;
-  box-shadow:none;
+    background-color:transparent;
+    box-shadow:none;
 }
 nav{
-  background-color:#275799;
-  font-weight:bold;
-  transition:all 0.5s ease;
-  padding:0;
+    background-color:#275799;
+    font-weight:bold;
+    transition:all 0.5s ease;
+    padding:0;
 }
 strong{
-  font-weight:900;
+    font-weight:900;
 }
 #apply-btn{
-  font-size:1.5rem;
-  /*font-weight:bold;*/
+    font-size:1.5rem;
+    /*font-weight:bold;*/
 }
 
 .navbar-fixed{
-  position:absolute;
-  top:0;
-  font-size:20px;
+    position:absolute;
+    top:0;
+    font-size:20px;
 }
 .hack-logo{
-  padding-left: 1%;
-  font-size:40px;
+    padding-left: 1%;
+    font-size:40px;
 }
 .hack-uci{
-  height:35vmin;
+    height:35vmin;
 }
 .heading-image{
-  /*background-image:url('../images/Main floor.png');*/
-  padding-top: 0;
-  background-size: 100%;
-  background-repeat: no-repeat;
-  background-position: center;
-  background-color:#010e1e;
-  color:white;
-  background-size: 100% 100%;
-  min-height:400px;
+    /*background-image:url('../images/Main floor.png');*/
+    padding-top: 0;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color:#010e1e;
+    color:white;
+    background-size: 100% 100%;
+    min-height:400px;
 }
 
 .background-video {
@@ -75,105 +75,103 @@ strong{
 }
 
 .slogan{
-  padding-bottom: 5%;
+    padding-bottom: 5%;
 }
 .about-info{
-  color:#002f5f;
-  font-size:30px;
+    color:#002f5f;
+    font-size:30px;
 }
 .faq{
-  background-color:#010e1e;
-  color:white;
-  /*min-height: 500px;*/
+    background-color:#010e1e;
+    color:white;
+    /*min-height: 500px;*/
 }
 .application{
-  min-height: 300px;
+    min-height: 300px;
 }
 .card-panel{
-  margin: 4% 0 0 0;
-  transition: all 0.5s ease;
+    margin: 4% 0 0 0;
+    transition: all 0.5s ease;
 }
 .card-color{
-  background-color: #275799;
+    background-color: #275799;
 }
 .info{
-  font-size:7vmin;
-  padding:0;
+    font-size:7vmin;
+    padding:0;
 }
 .heading{
-  font-size:25px;
+    font-size:25px;
 }
 .card-info{
-  padding-bottom:20px;
+    padding-bottom:20px;
 }
 .sponsor-row {
     text-align: center;
     margin: 5% 2% 5% 2%;
 }
 .sponsor-image{
-  width:25%;
-  opacity: 0.5;
-  margin: 0% 3% 0% 3%;
-  vertical-align:middle;
+    width:25%;
+    opacity: 0.5;
+    margin: 0% 3% 0% 3%;
+    vertical-align:middle;
 }
 .sponsor-image-2{
-  max-width:25%;
-  opactiy: 0.5;
-  margin:10px;
+    max-width:25%;
+    opactiy: 0.5;
+    margin:10px;
 }
 .sponsor-image:hover{
-  opacity:1;
+    opacity:1;
 }
 .sponsor-btn{
-  margin-bottom: 50px;
+    margin-bottom: 50px;
 }
 .menu-btn{
-  margin-left: 10%;
+    margin-left: 10%;
 }
 .footer-copyright{
-  /*background-color:#010e1e;*/
-  background-color:#275799;
-  color:white;
-  padding:1%;
+    /*background-color:#010e1e;*/
+    background-color:#275799;
+    color:white;
+    padding:1%;
 }
 .h1{
-  padding-bottom:3%;
+    padding-bottom:3%;
 }
 .foot{
-  color:white;
+    color:white;
 }
 .foot:hover{
-  color:teal;
+    color:teal;
 }
 .foot-link{
-  color:white;
-  margin: 10px;
+    color:white;
+    margin: 10px;
 }
 .raining-img{
-  visibility:hidden;
+    visibility:hidden;
 }
 .rain{
-  cursor: crosshair;
+    cursor: crosshair;
 }
 .modal{
-  position:fixed;
-  top:15%;
-  width:50%;
-  z-index:100000;
+    position:fixed;
+    top:15%;
+    width:50%;
+    z-index:100000;
 }
 .email-text-area{
-  height:200px;
+    height:200px;
 }
 .ahmed{
-  font-size:70px;
-  margin-top:0.5em;
-  margin-bottom:0.7em;
+    font-size:70px;
+    margin-top:0.5em;
+    margin-bottom:0.7em;
 }
 
-.apply-btn {
 
-}
-
-/*.apply-btn > span {
-    font-size: 5vmin;*/
+.navbar-fixed > a {
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;
 }
