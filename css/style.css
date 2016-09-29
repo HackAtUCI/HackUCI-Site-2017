@@ -40,11 +40,11 @@ strong{
   font-size:40px;
 }
 .hack-uci{
-  width:50%;
-  height:50%;
+  height:35vmin;
 }
 .heading-image{
-  background-image:url('../images/Main floor.png');
+  /*background-image:url('../images/Main floor.png');*/
+  padding-top: 0;
   background-size: 100%;
   background-repeat: no-repeat;
   background-position: center;
@@ -53,6 +53,27 @@ strong{
   background-size: 100% 100%;
   min-height:400px;
 }
+
+.background-video {
+    position: relative;
+    bottom: 0%;
+    left: 0%;
+    height: auto;
+    overflow: hidden;
+}
+
+.home-container {
+    width: 100%;
+    max-width: 100%;
+}
+
+.home-text {
+    position: absolute;
+    top: 5%;
+    width: 100%;
+    max-height: 500px;
+}
+
 .slogan{
   padding-bottom: 5%;
 }
@@ -76,7 +97,7 @@ strong{
   background-color: #275799;
 }
 .info{
-  font-size:40px;
+  font-size:7vmin;
   padding:0;
 }
 .heading{
@@ -147,4 +168,12 @@ strong{
   font-size:70px;
   margin-top:0.5em;
   margin-bottom:0.7em;
+}
+
+.apply-btn {
+
+}
+
+/*.apply-btn > span {
+    font-size: 5vmin;*/
 }
