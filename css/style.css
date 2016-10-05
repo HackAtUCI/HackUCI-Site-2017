@@ -56,15 +56,23 @@ strong{
 
 .background-video {
     position: relative;
-    bottom: 0%;
+    /*bottom: 0%;*/
     left: 0%;
+    top: 50%;
+    transform: translateY(-50%);
+    /*width: 100vw;*/
+    /*height: 100vw;*/
     height: auto;
     overflow: hidden;
+    margin-top: 0px;
+    margin-bottom: 0px;
 }
 
 .home-container {
-    width: 100%;
+    width: 100vw;
+    height: 100vh;
     max-width: 100%;
+    overflow: hidden;
 }
 
 .home-text {
