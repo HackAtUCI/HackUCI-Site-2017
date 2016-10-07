@@ -3,6 +3,7 @@ $(document).ready(function(){
   $("#myBtn").click(function(){
     $("#myModal").modal();
   });
+  $(".hack-logo").hide();
   $('.scroll-link').on('click', function(event){
     event.preventDefault();
     var sectionID = $(this).attr("data-id");
@@ -56,9 +57,11 @@ function start_countdown(){
 function change(){
   if(document.body.scrollTop != 0){
     document.getElementById('nav-bar').classList.remove('unscrolled');
+    $(".hack-logo").fadeIn();
   }
   if(document.body.scrollTop == 0){
     document.getElementById('nav-bar').classList.add('unscrolled');
+    $(".hack-logo").fadeOut();
   }
   // console.log('changed');
 };
