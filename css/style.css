@@ -187,7 +187,6 @@ strong{
     -webkit-text-stroke-color: black;
 }
 
-
 .btn-animate:hover {
   -webkit-animation: btn-animation 1000ms linear both;
   animation: btn-animation 1000ms linear both;
