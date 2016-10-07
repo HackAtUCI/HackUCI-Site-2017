@@ -122,7 +122,16 @@ strong{
     margin: 5% 2% 5% 2%;
 }
 .sponsor-image{
-    width:25%;
+    width:50%;
+    opacity: 0.5;
+    margin: 0% 3% 0% 3%;
+    vertical-align:middle;
+}
+.community-sponsor-image{
+    max-height: 200px;
+    max-width:60%;
+    width: auto;
+    height: auto;
     opacity: 0.5;
     margin: 0% 3% 0% 3%;
     vertical-align:middle;
@@ -135,6 +144,21 @@ strong{
 .sponsor-image:hover{
     opacity:1;
 }
+.sponsor-image-featured{
+    width:70%;
+}
+.sponsor-grid{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    height:150px;
+}
+.community-sponsor-grid{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    height:200px;
+}
 .sponsor-btn{
     margin: 25px;
 }
@@ -146,9 +170,6 @@ strong{
     background-color:#275799;
     color:white;
     padding:1%;
-}
-.h1{
-    padding-bottom:3%;
 }
 .foot{
     color:white;
