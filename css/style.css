@@ -33,6 +33,7 @@ strong{
     margin: 10px;
 }
 
+
 .navbar-fixed{
     position:absolute;
     top:0;
@@ -46,14 +47,13 @@ strong{
     height:35vmin;
 }
 .heading-image{
-    /*background-image:url('../images/Main floor.png');*/
+    background-image: url(../images/studentcentre.jpg);
+    background-size: cover;
+    background-repeat: none;
+    background-position: 50% 50%;
     padding-top: 0;
-    background-size: 100%;
-    background-repeat: no-repeat;
-    background-position: center;
     background-color:#010e1e;
     color:white;
-    background-size: 100% 100%;
     min-height:400px;
 }
 
