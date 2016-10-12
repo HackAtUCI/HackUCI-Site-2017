@@ -96,8 +96,8 @@
     </nav>
 </div>
 
-<div class="home-container container center">
-    <video loop="true" muted="ture" class="background-video hide-on-small-only" src="http://www.ics.uci.edu/~mgharmal/video.mp4" autoplay></video>
+<div class="home-container container center" id="video-container">
+    <video loop="true" muted="true" id="background-video" class="background-video" src="http://www.ics.uci.edu/~mgharmal/video.mp4" autoplay></video>
 
     <!-- Video credit: Steve Zylius, UCI Communications -->
 
@@ -309,5 +309,16 @@
         <p>Video courtesy of Steve Zylius, UCI Communications.</p>
     </div>
 </div>
+
+<script>
+    // Code to ensure that the video does not load at all on mobile
+    if (window.innerWidth < 600) {
+        var vidContainer = document.getElementById('video-container');
+        var vid = document.getElementById('background-video');
+
+        vidContainer.removeChild(vid);
+    }
+
+</script>
 </body>
 </html>
