@@ -78,3 +78,12 @@ function removeClass(){
   for(i=0; i<imgList.length; i++)
     imgList[i].style.visibility = "visible";
 }
+
+function anteaster() {
+  $('body').html('<div id="anteater-arena" tabindex="0"></div>');
+
+  var mySnakeBoard = new SNAKE.Board({
+    boardContainer: "anteater-arena",
+    fullScreen: true
+  });
+}
