@@ -168,6 +168,9 @@ strong{
 .sponsor-image:hover{
     opacity:1;
 }
+.community-sponsor-image:hover{
+    opacity:1;
+}
 .sponsor-image-featured{
     width:70%;
 }
