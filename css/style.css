@@ -209,12 +209,7 @@ strong{
     color:white;
     margin: 10px;
 }
-.raining-img{
-    visibility:hidden;
-}
-.rain{
-    cursor: crosshair;
-}
+
 .modal{
     position:fixed;
     top:15%;
