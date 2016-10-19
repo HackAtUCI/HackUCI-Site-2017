@@ -33,6 +33,24 @@ strong{
     margin: 10px;
 }
 
+.deadline-banner{
+    width: 40%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -1.5%;
+    margin-bottom: 1%;
+    opacity: 0.8;
+}
+.deadline-banner .card-panel{
+    padding: 15px !important;
+}
+
+@media (max-width: 667px) {
+    .deadline-banner{
+        width: 70%;
+    }
+}
+
 
 .navbar-fixed{
     position:absolute;
