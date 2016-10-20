@@ -1,7 +1,10 @@
 $(document).ready(function(){
   $(".button-collapse").sideNav();
-  $("#myBtn").click(function(){
-    $("#myModal").modal();
+  $("#contact-btn").click(function(){
+    $('#contact-modal').openModal();
+  });
+  $("#contact-close-btn").click(function(){
+    $('#contact-modal').closeModal();
   });
   $(".hack-logo").hide();
   $('.scroll-link').on('click', function(event){

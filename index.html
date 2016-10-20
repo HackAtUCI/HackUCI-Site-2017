@@ -34,32 +34,27 @@
 
 <body onscroll="change()">
 
-    <!-- Modal -->
-    <div class="modal fade in" id="myModal" role="dialog">
-        <div class="modal-dialog">
-
-            <!-- Modal content-->
-            <div class="modal-content">
-                <div class="modal-header center">
-                    <h4 class="modal-title">We'd love to hear from you</h4>
-                </div>
-                <div class="modal-body">
-                    <form action="//formspree.io/hackuci@gmail.com" method="post">
-                        <input type="text" name="name" placeholder="Your Name">
-                        <input type="email" name="_replyto" placeholder="Your Email">
-                        <input type="text" name="_subject" placeholder="Subject">
-                        <textarea type="text" name="body" placeholder="Your Message" class="email-text-area"></textarea>
-                        <p class="center">
-                            <button id="submit-btn" class="btn btn-default" type="submit" style="width:49%;">Submit</button>
-                            <button class="btn btn-default" data-dismiss="modal" style="width:49%;">Cancel</button>
-                        </p>
-
-                    </form>
-                </div>
+    <!-- Contact Modal -->
+    <div id="contact-modal" class="modal">
+        <div class="modal-content">
+            <div class="modal-header center">
+                <h4 class="modal-title">We'd love to hear from you</h4>
             </div>
-
+            <div class="modal-body">
+                <form id="contact-form" action="//formspree.io/hackuci@gmail.com" method="post">
+                    <input type="text" name="name" placeholder="Your Name">
+                    <input type="email" name="_replyto" placeholder="Your Email">
+                    <input type="text" name="_subject" placeholder="Subject">
+                    <textarea type="text" name="body" placeholder="Your Message" class="email-text-area"></textarea>
+                </form>
+                <p class="center">
+                    <button id="submit-btn" class="btn btn-default" type="submit" form="contact-form" style="width:49%;">Submit</button>
+                    <button id="contact-close-btn" class="btn btn-default" style="width:49%;">Cancel</button>
+                </p>
+            </div>
         </div>
     </div>
+    <!-- End Contact Modal -->
 
     <div class="section no-pad-bot heading-image" id="index-banner">
 
@@ -295,7 +290,7 @@
     <div class="container">
         <h3>Have a question?</h3>
         <h3>Want to sponsor us?</h3>
-        <button type="button" class="btn btn-info btn-lg btn-animate waves-effect waves-light card-color center sponsor-btn" id="myBtn">Contact Us</button>
+        <button type="button" data-target="contact-modal" class="btn btn-info btn-lg btn-animate waves-effect waves-light card-color center sponsor-btn modal-trigger" id="contact-btn">Contact Us</button>
         <h3>Check out our pages!</h3>
         <a href="https://twitter.com/HackUCI" target="_blank"><img src="./images/uci-twitter-transparent.png" class="box-animate"></a>
         <a href="https://www.facebook.com/hackUCIrvine" target="_blank"><img src="./images/uci-fb-transparent.png" class="box-animate"></a>
