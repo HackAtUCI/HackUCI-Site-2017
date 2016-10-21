@@ -60,6 +60,7 @@ strong{
 .hack-logo{
     padding-left: 1%;
     font-size:40px;
+    opacity: 0;
 }
 .hack-uci{
     height:35vmin;
@@ -132,9 +133,16 @@ strong{
     background-color: #275799;
 }
 .info{
-    font-size:7vmin;
+    font-size:8vmin;
+    text-shadow: 5px 5px #000000;
     padding:0;
 }
+@media (max-width: 667px) {
+    .info {
+        text-shadow: 1.5px 1.5px #000000;
+    }
+}
+
 .heading{
     font-size:25px;
 }
@@ -184,6 +192,10 @@ strong{
     margin-top: 0;
 }
 
+#sponsors h1 {
+    font-size: 3rem;
+}
+
 .community-sponsor-grid{
     display:flex;
     justify-content:center;
@@ -194,7 +206,14 @@ strong{
     margin: 25px;
 }
 .menu-btn{
-    margin-left: 10%;
+    margin-left: 1rem;
+    font-size: 1.9rem !important;
+}
+.menu-btn i{
+    font-size: 2rem !important;
+}
+#mobile-logo{
+    opacity: 0;
 }
 .footer-copyright{
     /*background-color:#010e1e;*/
