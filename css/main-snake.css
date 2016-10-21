@@ -73,6 +73,7 @@ a.snake-link:hover {
 .snake-snakebody-alive {
    background-image: url('../images/anteaster/snakeblock.png');
 }
+
 .snake-snakebody-dead {
    background-image: url('../images/anteaster/snakeblock.png');
 }
@@ -137,4 +138,4 @@ a.snake-link:hover {
     margin-left: -158px;
     text-align: center;
     display: none;
-    }
+}

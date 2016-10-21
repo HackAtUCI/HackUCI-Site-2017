@@ -273,6 +273,22 @@ SNAKE.Snake = SNAKE.Snake || (function() {
             newHead.elmStyle.left = newHead.xPos + "px";
             newHead.elmStyle.top = newHead.yPos + "px";
 
+            switch (myDirection) {
+                case 0:
+                    newHead.elm.style.transform = "rotate(270deg)";
+                    console.log("up");
+                    break;
+                case 1:
+                    newHead.elm.style.transform = "rotate(0deg)";
+                    break;
+                case 2:
+                    newHead.elm.style.transform = "rotate(90deg)";
+                    break;
+                case 3:
+                    newHead.elm.style.transform = "scaleX(-1)";
+                    break;
+            }
+
             // check the new spot the snake moved into
 
             if (grid[newHead.row][newHead.col] === 0) {
@@ -332,7 +348,7 @@ SNAKE.Snake = SNAKE.Snake || (function() {
             recordScore();
             me.snakeHead.elm.style.zIndex = getNextHighestZIndex(me.snakeBody);
             me.snakeHead.elm.className = me.snakeHead.elm.className.replace(/\bsnake-snakebody-alive\b/,'')
-            me.snakeHead.elm.className += " snake-snakebody-dead";
+            // me.snakeHead.elm.className += " snake-snakebody-dead";
 
             isDead = true;
             playingBoard.handleDeath();
