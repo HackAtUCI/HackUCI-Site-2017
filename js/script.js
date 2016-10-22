@@ -7,6 +7,9 @@ $(document).ready(function(){
     $('#contact-modal').closeModal();
   });
   $(".hack-logo").hide();
+  $(".hack-logo").css("opacity", "1");
+  $("#mobile-logo").hide();
+  $("#mobile-logo").css("opacity", "1");
   $('.scroll-link').on('click', function(event){
     event.preventDefault();
     var sectionID = $(this).attr("data-id");
@@ -61,10 +64,12 @@ function change(){
   if(document.body.scrollTop != 0){
     document.getElementById('nav-bar').classList.remove('unscrolled');
     $(".hack-logo").fadeIn();
+    $("#mobile-logo").fadeIn();
   }
   if(document.body.scrollTop == 0){
     document.getElementById('nav-bar').classList.add('unscrolled');
     $(".hack-logo").fadeOut();
+    $("#mobile-logo").fadeOut();
   }
   // console.log('changed');
 };
