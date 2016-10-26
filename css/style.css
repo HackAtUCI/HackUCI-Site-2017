@@ -103,9 +103,15 @@ strong{
     overflow: hidden;
 }
 
+.timer {
+  position: absolute;
+  top: 20%;
+  width: 100%;
+}
+
 .home-text {
     position: absolute;
-    top: 50%;
+    top: 60%;
     transform: translateY(-50%);
     width: 100%;
 }
