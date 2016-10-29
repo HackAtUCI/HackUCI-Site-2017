@@ -104,14 +104,21 @@ strong{
 }
 
 .timer {
-  position: absolute;
-  top: 20%;
-  width: 100%;
+  font-family: 'Roboto Slab', serif;
+  font-size: 3vmin;
+  text-shadow: 0.4vmin 0.4vmin #000000;
+  display: block;
+  margin-top: 2.5em;
+  margin-bottom: 2.5em;
+}
+
+.days, .hours, .minutes, .seconds {
+  font-size: 6vmin;
 }
 
 .home-text {
     position: absolute;
-    top: 60%;
+    top: 50%;
     transform: translateY(-50%);
     width: 100%;
 }
