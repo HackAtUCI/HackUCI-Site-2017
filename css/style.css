@@ -105,15 +105,15 @@ strong{
 
 .timer {
   font-family: 'Roboto Slab', serif;
-  font-size: 3vmin;
+  font-size: 6vmin;
   text-shadow: 0.4vmin 0.4vmin #000000;
   display: block;
-  margin-top: 2.5em;
-  margin-bottom: 2.5em;
+  margin-top: 1em;
+  margin-bottom: 1em;
 }
 
-.days, .hours, .minutes, .seconds {
-  font-size: 6vmin;
+.weeks-text, .days-text, .hours-text, .minutes-text, .seconds-text {
+  font-size: 3vmin;
 }
 
 .home-text {
