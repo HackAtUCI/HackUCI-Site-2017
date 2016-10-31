@@ -5,7 +5,7 @@ var HOUR = MINUTE * 60;
 var DAY = HOUR * 24;
 
 $(document).ready(function() {
-  timer();
+  setInterval(timer, 1000)
 });
 
 function timer() {
@@ -26,6 +26,4 @@ function timer() {
   $hours.text(hoursLeft);
   $minutes.text(minutesLeft);
   $seconds.text(secondsLeft);
-
-  setInterval(timer, 1000)
 }
