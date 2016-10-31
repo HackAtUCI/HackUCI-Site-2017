@@ -34,12 +34,12 @@ strong{
 }
 
 .deadline-banner{
-    width: 40%;
+    width: 60%;
     margin-left: auto;
     margin-right: auto;
     margin-top: -1.5%;
     margin-bottom: 1%;
-    opacity: 0.8;
+    /*opacity: 0.8;*/
 }
 .deadline-banner .card-panel{
     padding: 15px !important;
@@ -121,6 +121,16 @@ strong{
     top: 50%;
     transform: translateY(-50%);
     width: 100%;
+}
+
+.notice-container {
+  background-color: #275799;
+}
+
+.notice {
+  font-size: 4vmin;
+  font-weight: bold;
+  font-family: 'Lato', sans-serif;
 }
 
 .slogan{
