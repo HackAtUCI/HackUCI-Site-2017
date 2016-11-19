@@ -1,4 +1,4 @@
-var DATE_OF_HACKATHON = 'January 13, 2017 19:00:00 PDT';
+var DATE_OF_HACKATHON = 'January 13, 2017 19:00:00 PST';
 var dateOfHackathon = Date.parse(DATE_OF_HACKATHON);
 
 var SECOND = 1000;
