@@ -40,3 +40,12 @@ function scrollToID(id, speed){
   var mainNav = $('#main-nav');
   $('html,body').animate({scrollTop:targetOffset}, speed);
 }
+
+function anteaster() {
+  $('body').html('<div id="anteater-arena" tabindex="0"></div>');
+
+  var mySnakeBoard = new SNAKE.Board({
+    boardContainer: "anteater-arena",
+    fullScreen: true
+  });
+}
