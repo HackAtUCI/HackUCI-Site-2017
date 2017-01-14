@@ -282,6 +282,37 @@ strong{
     animation: btn-animation 1000ms linear both;
 }
 
+
+@-webkit-keyframes glow {
+    from { text-shadow: 0 0 0px blue; }
+    50% { text-shadow: 0 0 50px blue; }
+    to { text-shadow: 0 0 0px blue; }
+}
+
+@keyframes glow {
+    from { text-shadow: 0 0 0px blue; }
+    50% { text-shadow: 0 0 50px blue; }
+    to { text-shadow: 0 0 0px blue; }
+}
+
+#live {
+    color: white;
+    -webkit-animation-duration: 1s;
+    -webkit-animation-name: glow;
+    /*-webkit-animation-direction: alternate;*/
+    -webkit-animation-iteration-count: infinite;
+    animation-duration: 1s;
+    animation-name: glow;
+    /*animation-direction: alternate;*/
+    animation-iteration-count: infinite;
+}
+
+#live:hover {
+    animation: none;
+    text-decoration: underline;
+    text-shadow: 0 0 50px blue;
+}
+
 @-webkit-keyframes btn-animation {
     0% { -webkit-transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); }
     3.4% { -webkit-transform: matrix3d(1.032, 0, 0, 0, 0, 1.041, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); transform: matrix3d(1.032, 0, 0, 0, 0, 1.041, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); }

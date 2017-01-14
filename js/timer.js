@@ -1,4 +1,4 @@
-var DATE_OF_HACKATHON = 'January 13, 2017 19:00:00 PST';
+var DATE_OF_HACKATHON = 'January 13, 2017 18:00:00 PST';
 var dateOfHackathon = Date.parse(DATE_OF_HACKATHON);
 
 var SECOND = 1000;
@@ -52,8 +52,8 @@ function timer() {
   // If current time is less than time of the hackathon...
   // This will stop the timer as well
   if (timeLeft <= 0) {
-    $timerContainer.text('HackUCI is LIVE!');
-
+    $timerContainer.text('');
+    $timerContainer.append($('<a id="live" href="http://live.hackuci.com">HackUCI is LIVE!</span>'));
     return;
   }
 
