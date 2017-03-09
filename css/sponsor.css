@@ -1,14 +1,34 @@
+/*@font-face {
+	font-family: 'Kayak-Sans';
+	src: url('../fonts/Kayak-Sans-Regular.eot');
+	src: local('☺'), url('../fonts/Kayak-Sans-Regular.woff') format('woff'), url('../fonts/Kayak-Sans-Regular.ttf') format('truetype'), url('../fonts/Kayak-Sans-Regular.svg') format('svg');
+	font-weight: 500;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Kayak-Sans';
+	src: url('../fonts/Kayak-Sans-Light.eot');
+	src: local('☺'), url('../fonts/Kayak-Sans-Light.woff') format('woff'), url('../fonts/Kayak-Sans-Light.ttf') format('truetype'), url('../fonts/Kayak-Sans-Light.svg') format('svg');
+	font-weight: 400;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Kayak-Sans';
+	src: url('../fonts/Kayak-Sans-Bold.eot');
+	src: local('☺'), url('../fonts/Kayak-Sans-Bold.woff') format('woff'), url('../fonts/Kayak-Sans-Bold.ttf') format('truetype'), url('../fonts/Kayak-Sans-Bold.svg') format('svg');
+	font-weight: 700;
+	font-style: normal;
+}*/
+
 html, body {
 	height: 100%;
-	font-family: 'Asap', sans-serif;
+	font-family: 'Nunito', sans-serif;
 }
 
 body {
 	margin: 0;
-}
-
-section {
-	height: 100%;
 }
 
 .center {
@@ -22,6 +42,11 @@ section {
 	align-items: center;
 }
 
+.center-top {
+	display: flex;
+	justify-content: center;
+}
+
 /* Hero */
 #hero {
 	background-image: url('../sponsor/img/hero.jpg');
@@ -32,24 +57,24 @@ section {
 
 #hero::before {
 	content: '';
-	background-image: linear-gradient(-45deg, #eb484d, #3136A8);
+	background-image: linear-gradient(to bottom right, #02ccba 0%, #3d99be 31%, #9848d5 100%);
 	opacity: 0.8;
 	width: 100%;
 	height: calc(100% + 50px);
 	position: absolute;
 }
 
-.header {
-	height: 80px;
+.logo-header {
+	height: 100px;
 	padding: 35px 0 0 50px;
 	position: absolute;
 }
 
-.header>img {
+.logo-header>img {
 	height: 100%;
 }
 
-.header>span {
+.logo-header>span {
 	font-weight: 700;
 	font-size: 1.5em;
 	padding-left: 0.5em;
@@ -70,16 +95,16 @@ section {
 }
 
 .hero-title {
-	font-size: 3em;
+	font-size: 3.5em;
+	font-weight: 600;
 	text-align: center;
 }
 
 .hero-description {
-	font-weight: 300;
-	font-size: 1.17em;
-	letter-spacing: 0.02em;
+	font-weight: 200;
+	font-size: 1.4em;
+	letter-spacing: 0.032em;
 	text-align: center;
-	padding-top: 0.75%;
 }
 
 .hero-border {
@@ -96,4 +121,39 @@ section {
 	height: calc(100% + 50px);
 	position: absolute;
 	vertical-align: bottom;
+}
+
+/* Recap */
+#recap-content {
+	width: 80%;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 5% 0;
+}
+
+#recap-content>.title {
+	font-size: 2.8em;
+	font-weight: 800;
+	margin-top: -0.5%;
+}
+
+#recap-content>.recap-description {
+	font-size: 1.4em;
+	letter-spacing: 0.014em;
+}
+
+.recap-statistics {
+	text-align: center;
+	padding-top: 2.5%;
+}
+
+.recap-statistics>div>strong {
+	display: block;
+	font-size: 1.5em;
+	font-weight: 600;
+}
+
+.recap-statistics>div>span {
+	font-weight: 300;
+	font-size: 0.9em;
 }
