@@ -1,30 +1,6 @@
-/*@font-face {
-	font-family: 'Kayak-Sans';
-	src: url('../fonts/Kayak-Sans-Regular.eot');
-	src: local('☺'), url('../fonts/Kayak-Sans-Regular.woff') format('woff'), url('../fonts/Kayak-Sans-Regular.ttf') format('truetype'), url('../fonts/Kayak-Sans-Regular.svg') format('svg');
-	font-weight: 500;
-	font-style: normal;
-}
-
-@font-face {
-	font-family: 'Kayak-Sans';
-	src: url('../fonts/Kayak-Sans-Light.eot');
-	src: local('☺'), url('../fonts/Kayak-Sans-Light.woff') format('woff'), url('../fonts/Kayak-Sans-Light.ttf') format('truetype'), url('../fonts/Kayak-Sans-Light.svg') format('svg');
-	font-weight: 400;
-	font-style: normal;
-}
-
-@font-face {
-	font-family: 'Kayak-Sans';
-	src: url('../fonts/Kayak-Sans-Bold.eot');
-	src: local('☺'), url('../fonts/Kayak-Sans-Bold.woff') format('woff'), url('../fonts/Kayak-Sans-Bold.ttf') format('truetype'), url('../fonts/Kayak-Sans-Bold.svg') format('svg');
-	font-weight: 700;
-	font-style: normal;
-}*/
-
 html, body {
 	height: 100%;
-	font-family: 'Nunito', sans-serif;
+	font-family: 'Rubik', sans-serif;
 }
 
 body {
@@ -95,15 +71,15 @@ body {
 }
 
 .hero-title {
-	font-size: 3.5em;
-	font-weight: 600;
+	font-size: 3.75em;
+	font-weight: 500;
 	text-align: center;
 }
 
 .hero-description {
-	font-weight: 200;
-	font-size: 1.4em;
-	letter-spacing: 0.032em;
+	font-weight: 300;
+	font-size: 1.42em;
+	letter-spacing: 0.045em;
 	text-align: center;
 }
 
@@ -133,13 +109,15 @@ body {
 
 #recap-content>.title {
 	font-size: 2.8em;
-	font-weight: 800;
+	font-weight: 700;
 	margin-top: -0.5%;
 }
 
-#recap-content>.recap-description {
+#recap-content>.recap-description>span {
 	font-size: 1.4em;
-	letter-spacing: 0.014em;
+	letter-spacing: 0.01em;
+	font-family: 'Muli', sans-serif;
+	color: #2c3e50;
 }
 
 .recap-statistics {
@@ -147,13 +125,17 @@ body {
 	padding-top: 2.5%;
 }
 
+.recap-statistics>div {
+	padding-left: 0;
+	padding-right: 0;
+}
+
 .recap-statistics>div>strong {
 	display: block;
-	font-size: 1.5em;
-	font-weight: 600;
+	font-size: 2em;
+	font-weight: 500;
 }
 
 .recap-statistics>div>span {
 	font-weight: 300;
-	font-size: 0.9em;
 }
