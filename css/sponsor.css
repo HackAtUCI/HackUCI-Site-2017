@@ -147,7 +147,7 @@ body {
 	width: 80%;
 	margin-left: auto;
 	margin-right: auto;
-	padding: 5% 0;
+	padding: 7% 0;
 }
 
 #recap-content>.title {
@@ -163,7 +163,7 @@ body {
 
 .recap-statistics {
 	text-align: center;
-	padding-top: 3%;
+	padding-top: 3.5%;
 }
 
 .recap-statistics>div {
@@ -209,19 +209,41 @@ body {
 	width: 80%;
 	margin-left: auto;
 	margin-right: auto;
-	padding: 5% 0;
+	padding: 6% 0;
 }
 
 #sponsors-content>.title {
 	text-align: center;
+	padding-bottom: 1%;
+	color: #2c3e50;
+}
+
+#sponsors-list>div {
+	height: 60px;
+	padding-right: 10px;
+	padding-left: 10px;
+	margin-top: 1%;
+	opacity: 0.6;
+	transition: opacity .2s ease;
+}
+
+#sponsors-list>div:hover {
+	opacity: 1;
+}
+
+#sponsors-list>div>img {
+	width: 100%;
 }
 
 /* 2018 */
 #twentyeighteen {
-	height: 60%;
 	background-image: linear-gradient(-225deg, #2CD8D5 0%, #6B8DD6 48%, #8E37D7 100%);
 	color: white;
 	text-align: center;
+}
+
+#twentyeighteen-content {
+	padding: 10% 0;
 }
 
 #twentyeighteen-content>.title {
@@ -229,14 +251,9 @@ body {
 	line-height: 1.1em;
 }
 
-#twentyeighteen-content>.date {
-	font-family: 'Muli', sans-serif;
-	font-size: 2em;
-}
-
-#twentyeighteen-content>.location {
+#twentyeighteen-content>.details {
 	font-weight: 300;
-	font-size: 1.1em;
+	font-size: 1.5em;
 	line-height: 2.5em;
-	letter-spacing: 0.07em;
+	letter-spacing: 0.12em;
 }
