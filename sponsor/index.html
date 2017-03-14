@@ -194,10 +194,122 @@
 			<div class="details">
 				JANUARY 12 – 14, UC IRVINE
 			</div>
-			<a href="#">
-				Sponsor Us
-			</a>
+			<button type="button" data-toggle="modal" data-target="#contactModal">
+				Interested in Sponsoring?
+			</button>
 		</div>
 	</section>
+
+	<div class="modal fade" id="contactModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+		<div class="modal-dialog" role="document">
+			<div class="modal-content">
+				<div class="modal-header">
+					<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+					<h4 class="modal-title" id="myModalLabel">Sponsorship Information</h4>
+				</div>
+				<div class="modal-body">
+					<form action="https://formspree.io/hackuci@gmail.com" method="POST">
+						<div class="col-md-6 col-left">
+							<span>Name</span>
+							<input type="text" name="Name" placeholder="Jane Doe">
+						</div>
+						<div class="col-md-6 col-right">
+							<span>Email</span>
+							<input type="email" name="_replyto" placeholder="hello@yourcompany.com">
+						</div>
+						<div class="col-md-6 col-left">
+							<span>Phone</span>
+							<input type="number" name="Phone" placeholder="949-555-6789">
+						</div>
+						<div class="col-md-6 col-right">
+							<span>Company</span>
+							<input type="text" name="Company" placeholder="Better Startups, Inc.">
+						</div>
+						<span class="benefits-label">Benefits</span>
+						<div class="col-md-4">
+							<label class="checkbox-inline">
+								<input type="checkbox" value="API (Product) Demo"> API (Product) Demo
+							</label>
+						</div>
+						<div class="col-md-4">
+							<label class="checkbox-inline">
+								<input type="checkbox" value="Custom Branded Prize"> Custom Branded Prize
+							</label>
+						</div>
+						<div class="col-md-4">
+							<label class="checkbox-inline">
+								<input type="checkbox" value="Pre-Hackathon Workshop"> Pre-Hackathon Workshop
+							</label>
+						</div>
+						<div class="col-md-4">
+							<label class="checkbox-inline">
+								<input type="checkbox" value="Tech Talk During Event"> Tech Talk During Event
+							</label>
+						</div>
+						<div class="col-md-4">
+							<label class="checkbox-inline">
+								<input type="checkbox" value="Mini-Activity"> Mini-Activity
+							</label>
+						</div>
+						<div class="col-md-4">
+							<label class="checkbox-inline">
+								<input type="checkbox" value="Future Workshop with Hack"> Future Workshop with Hack
+							</label>
+						</div>
+						<div class="col-md-4">
+							<label class="checkbox-inline">
+								<input type="checkbox" value="Opening Speech"> Opening Speech
+							</label>
+						</div>
+						<div class="col-md-4">
+							<label class="checkbox-inline">
+								<input type="checkbox" value="Closing Speech"> Closing Speech
+							</label>
+						</div>
+						<div class="col-md-4">
+							<label class="checkbox-inline">
+								<input type="checkbox" value="Access to Attendee Resumes"> Access to Attendee Resumes
+							</label>
+						</div>
+						<div class="col-md-4">
+							<label class="checkbox-inline">
+								<input type="checkbox" value="Company Lounge"> Company Lounge
+							</label>
+						</div>
+						<div class="col-md-4">
+							<label class="checkbox-inline">
+								<input type="checkbox" value="Company Sponsored Raffle"> Company Sponsored Raffle
+							</label>
+						</div>
+						<div class="col-md-4">
+							<label class="checkbox-inline">
+								<input type="checkbox" value="Pre-Hackathon Social Media Post"> Pre-Hackathon Social Media Post
+							</label>
+						</div>
+						<div class="col-md-12">
+							<span class="comments-label">Additional Comments</span>
+							<input type="textarea" name="Additional Comments" placeholder="Say hi to us! :-)">
+						</div>
+						<input type="hidden" name="Benefits" value="" />
+						<input type="hidden" name="_next" value="http://www.hackuci.com/sponsor" />
+						<input type="hidden" name="_subject" value="HackUCI Sponsorship Request" />
+						<input type="submit" value="Send">
+					</form>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<script
+		src="http://code.jquery.com/jquery-3.1.1.min.js"
+		integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
+		crossorigin="anonymous">
+	</script>
+	<script
+		src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"
+		integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
+		crossorigin="anonymous">
+	</script>
+	<script src="../js/sponsor.js"></script>
 </body>
 </html>
