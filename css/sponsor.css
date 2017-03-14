@@ -196,19 +196,50 @@ body {
 
 #winners-content {
 	width: 80%;
-	padding: 3.5% 0 7% 0;
+	padding: 3.5% 0 3% 0;
 }
 
 #winners-content>.title {
 	text-align: center;
-	padding-bottom: 2.5%;
 }
 
 .winner-card {
 	width: 100%;
-	height: 250px;
-	background-color: yellow;
 	border-radius: 5px;
+	text-align: center;
+}
+
+.winners-list>div {
+	padding: 2.5% 0;
+	transition: box-shadow .2s ease;
+}
+
+/*.winners-list>div:hover {
+	box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+}*/
+
+.card-award-icon>i {
+	font-size: 3.5em;
+}
+
+.card-award-icon>img {
+	width: 3.5em;
+}
+
+.card-award-title {
+	font-weight: 300;
+	font-size: 0.8em;
+	letter-spacing: 0.07em;
+	padding-top: 7%;
+	padding-bottom: 2.5%;
+	color: white;
+}
+
+.card-name {
+	font-weight: 500;
+	color: white;
+	font-size: 1.4em;
+	letter-spacing: 0.025em;
 }
 
 /* Sponsors */
