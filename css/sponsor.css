@@ -109,7 +109,6 @@ body {
 }
 
 #hero-content>div>span {
-	display: block;
 	color: white;
 }
 
@@ -117,6 +116,7 @@ body {
 	font-size: 3.75em;
 	font-weight: 500;
 	text-align: center;
+	display: inline;
 }
 
 .hero-description {
@@ -124,6 +124,7 @@ body {
 	font-size: 1.42em;
 	letter-spacing: 0.045em;
 	text-align: center;
+	display: block;
 }
 
 .hero-border {
@@ -196,7 +197,7 @@ body {
 
 #winners-content {
 	width: 85%;
-	padding: 5% 0 5% 0;
+	padding: 5% 0;
 }
 
 #winners-content>.title {
@@ -448,6 +449,114 @@ hr {
 	color: white;
 }
 
+/* Mobile */
+@media (max-width: 767px) {
+	.title {
+		margin-bottom: 2.5%;
+	}
+
+	.logo-header {
+		justify-content: center;
+		width: 100%;
+		padding: 35px 0 0 0;
+	}
+
+	.hero-title {
+		display: block;
+		font-size: 2.75em;
+	}
+
+	.hero-description {
+		font-size: 1.2em;
+		margin: 2% 10%;
+	}
+
+	#recap-content, #winners-content {
+		padding: 12.5% 0;
+		width: 90%;
+	}
+
+	.recap-statistics {
+		padding-top: 5%;
+	}
+
+	.recap-statistics>div+div+div {
+		padding-top: 2.5%;
+	}
+
+	.winners-list>div {
+		padding: 5% 0;
+	}
+
+	.card-award-title {
+		padding-bottom: 1%;
+	}
+
+	#sponsors-content {
+		padding: 12.5% 0 5% 0;
+	}
+
+	#sponsorship {
+		padding: 5% 0 12.5% 0;
+	}
+
+	.sponsorship-content-description+.sponsorship-content-title {
+		padding: 5% 0 0.5% 0;
+	}
+
+	#twentyeighteen-content {
+		padding: 20% 0;
+	}
+
+	#twentyeighteen-content>.title {
+		font-size: 3.3em;
+		line-height: 1.1em;
+		margin-bottom: 0;
+	}
+
+	#twentyeighteen-content>.details {
+		font-size: 1.25em;
+		line-height: 2.5em;
+		letter-spacing: 0.1em;
+		padding-bottom: 2%;
+	}
+
+	#twentyeighteen-content>button {
+		padding: 2.5% 5%;
+	}
+
+	#contactModal input[type="text"], #contactModal input[type="email"], #contactModal input[type="number"], #contactModal input[type="textarea"] {
+		border-radius: 0;
+		padding-left: 0;
+		margin-bottom: 2.5%;
+	}
+
+	.modal-dialog {
+		margin: 0;
+	}
+
+	.modal-body {
+		padding: 10px 15px;
+	}
+
+	#contactModal .modal-content {
+		border-radius: 0;
+	}
+
+	.modal-body .col-left, .modal-body .col-right {
+		padding: 0;
+	}
+
+	#contactModal .comments-label {
+		margin-top: 2.5%;
+	}
+
+	#contactModal input[type="submit"] {
+		padding: 3% 6%;
+	}
+}
+
+/* Large screens */
 @media (min-width: 1650px) {
 	body {
 		font-size: 16px;
