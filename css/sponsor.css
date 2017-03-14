@@ -416,6 +416,7 @@ hr {
 
 #contactModal input[type="checkbox"] {
 	font-size: inherit;
+	width: inherit;
 }
 
 #contactModal .checkbox-inline {
