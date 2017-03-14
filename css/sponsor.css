@@ -195,8 +195,8 @@ body {
 }
 
 #winners-content {
-	width: 80%;
-	padding: 3.5% 0 3% 0;
+	width: 85%;
+	padding: 5% 0 5% 0;
 }
 
 #winners-content>.title {
@@ -211,12 +211,13 @@ body {
 
 .winners-list>div {
 	padding: 2.5% 0;
-	transition: box-shadow .2s ease;
+	border-bottom: 1px solid transparent;
+	transition: all .2s ease;
 }
 
-/*.winners-list>div:hover {
-	box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
-}*/
+.winners-list>div:hover {
+	border-bottom: 1px solid white;
+}
 
 .card-award-icon>i {
 	font-size: 3.5em;
