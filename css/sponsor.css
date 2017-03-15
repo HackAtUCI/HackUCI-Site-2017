@@ -35,6 +35,23 @@
     }
 }
 
+::-webkit-input-placeholder {
+  color: #34495e;
+  opacity: .35;
+}
+::-moz-placeholder {
+  color: #34495e;
+  opacity: .35;
+}
+:-ms-input-placeholder {
+  color: #34495e;
+  opacity: .35;
+}
+:-moz-placeholder {
+  color: #34495e;
+  opacity: .35;
+}
+
 /* Global */
 html, body {
 	height: 100%;
