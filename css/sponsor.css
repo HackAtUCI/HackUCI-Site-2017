@@ -153,6 +153,7 @@ body {
 
 #recap-content>.title {
 	margin-top: -0.5%;
+	color: #2c3e50;
 }
 
 #recap-content>.recap-description>span {
@@ -183,6 +184,7 @@ body {
 	display: block;
 	font-size: 2em;
 	font-weight: 500;
+	color: #2c3e50;
 }
 
 .recap-statistics>div>span {
@@ -369,6 +371,14 @@ hr {
 	box-shadow: none;
 	-webkit-box-shadow: none;
 	border: none;
+}
+
+#contactModal .modal-header .close {
+	margin-top: 0;
+}
+
+#contactModal .close {
+	font-size: 25px;
 }
 
 .modal-body .col-right {
