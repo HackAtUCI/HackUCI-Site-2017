@@ -557,7 +557,26 @@ hr {
 	}
 }
 
-/* Large screens */
+/* Tablet */
+@media (min-width: 768px) and (max-width: 991px) {
+	body {
+		font-size: 12px;
+	}
+
+	#recap-content, #winners-content {
+		width: 90%;
+	}
+
+	.recap-statistics>div+div+div+div {
+		padding-top: 2.5%;
+	}
+
+	#sponsors-content, #sponsorship {
+		width: 85%;
+	}
+}
+
+/* Large Screens */
 @media (min-width: 1650px) {
 	body {
 		font-size: 16px;
