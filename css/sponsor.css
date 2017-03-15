@@ -507,6 +507,10 @@ hr {
 		padding: 35px 0 0 0;
 	}
 
+	.hero-border {
+		height: 100px;
+	}
+
 	.hero-title {
 		display: block;
 		font-size: 2.75em;
