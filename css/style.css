@@ -45,6 +45,10 @@ strong{
     padding: 15px !important;
 }
 
+.hero-btn {
+    height: 3em;
+}
+
 @media (max-width: 667px) {
     .deadline-banner{
         width: 70%;
